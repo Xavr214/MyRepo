@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{68E5B3B9-096B-4136-92F0-FFCBBADCF16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplesConsole", "ExamplesConsole\ExamplesConsole.csproj", "{41A8D1AE-A36D-4F6F-9FAE-BD66A8D6AA52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{4DA65971-2087-475A-B46B-D080610E8A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common2", "Common2\Common2.csproj", "{827C88A7-1F76-4346-AD0A-D93B7C2A4128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExample", "WebExample\WebExample.csproj", "{D19F3489-E59A-454D-8409-53783B01D9AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68E5B3B9-096B-4136-92F0-FFCBBADCF16A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E5B3B9-096B-4136-92F0-FFCBBADCF16A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E5B3B9-096B-4136-92F0-FFCBBADCF16A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E5B3B9-096B-4136-92F0-FFCBBADCF16A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A8D1AE-A36D-4F6F-9FAE-BD66A8D6AA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A8D1AE-A36D-4F6F-9FAE-BD66A8D6AA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A8D1AE-A36D-4F6F-9FAE-BD66A8D6AA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A8D1AE-A36D-4F6F-9FAE-BD66A8D6AA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA65971-2087-475A-B46B-D080610E8A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA65971-2087-475A-B46B-D080610E8A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA65971-2087-475A-B46B-D080610E8A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA65971-2087-475A-B46B-D080610E8A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827C88A7-1F76-4346-AD0A-D93B7C2A4128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827C88A7-1F76-4346-AD0A-D93B7C2A4128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827C88A7-1F76-4346-AD0A-D93B7C2A4128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827C88A7-1F76-4346-AD0A-D93B7C2A4128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19F3489-E59A-454D-8409-53783B01D9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19F3489-E59A-454D-8409-53783B01D9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19F3489-E59A-454D-8409-53783B01D9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19F3489-E59A-454D-8409-53783B01D9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1E9396E-7FE9-4228-AFF3-0EB11A6026C8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://horkteam.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Examples\\Examples.csproj
+		SccProjectName1 = Examples
+		SccLocalPath1 = Examples
+		SccProjectUniqueName2 = ExamplesConsole\\ExamplesConsole.csproj
+		SccProjectName2 = ExamplesConsole
+		SccLocalPath2 = ExamplesConsole
+		SccProjectUniqueName3 = Common\\Common.csproj
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = Common2\\Common2.csproj
+		SccProjectName4 = Common2
+		SccLocalPath4 = Common2
+		SccProjectUniqueName5 = WebExample\\WebExample.csproj
+		SccProjectName5 = WebExample
+		SccLocalPath5 = WebExample
+	EndGlobalSection
+EndGlobal
