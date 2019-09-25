@@ -52,8 +52,11 @@
   <ItemGroup>
     <Compile Include="Compare\Student.cs" />
     <Compile Include="Compare\StudentComparer.cs" />
+    <Compile Include="CovarianceContravariance\CovarianceContravariance.cs" />
+    <Compile Include="DelegatesEvents\DelegatesEvents.cs" />
     <Compile Include="Dispose\SomeClass.cs" />
     <Compile Include="Exception\FractionDevideByZeroException.cs" />
+    <Compile Include="ExtensionMethods\StringExtension.cs" />
     <Compile Include="Fraction\Fraction.cs" />
     <Compile Include="Fraction\FractionExetnsion.cs" />
     <Compile Include="Inheritance\Inheritance.cs" />
