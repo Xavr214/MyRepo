@@ -58,8 +58,11 @@
     <Compile Include="Exception\FractionDevideByZeroException.cs" />
     <Compile Include="ExpressionBodiedElements\ExpressionBodied.cs" />
     <Compile Include="ExtensionMethods\StringExtension.cs" />
-    <Compile Include="Fraction\Fraction.cs" />
-    <Compile Include="Fraction\FractionExetnsion.cs" />
+    <Compile Include="Operators\Fraction.cs" />
+    <Compile Include="Operators\FractionExetnsion.cs" />
+    <Compile Include="Generic\LinkedList.cs" />
+    <Compile Include="Generic\ListItem.cs" />
+    <Compile Include="Generic\Usage.cs" />
     <Compile Include="Inheritance\Inheritance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tuple_AnonymousType\TupleExample.cs" />
