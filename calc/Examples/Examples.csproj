@@ -56,6 +56,7 @@
     <Compile Include="DelegatesEvents\DelegatesEvents.cs" />
     <Compile Include="Dispose\SomeClass.cs" />
     <Compile Include="Exception\FractionDevideByZeroException.cs" />
+    <Compile Include="ExpressionBodiedElements\ExpressionBodied.cs" />
     <Compile Include="ExtensionMethods\StringExtension.cs" />
     <Compile Include="Fraction\Fraction.cs" />
     <Compile Include="Fraction\FractionExetnsion.cs" />

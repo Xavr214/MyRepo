@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Examples.DelegatesEvents
 {
@@ -12,7 +13,7 @@ namespace Examples.DelegatesEvents
         {
             PrintDelegate printDel = PrintNumber;
             //same result:
-            //Print printDel = new Print(PrintNumber);
+            //PrintDelegate printDel = new PrintDelegate(PrintNumber);
 
             printDel(100000);
             printDel(200);
@@ -75,7 +76,37 @@ namespace Examples.DelegatesEvents
     public class ClassWithEvent
     {
         //event have to be encapsulated into a class or interface
-        public event EventDelegate onValueChanged;
+        public event EventDelegate OnValueChanged;
+
+        //same result
+        //private event EventDelegate _onValueChanged;
+        //public event EventDelegate OnValueChanged
+        //{
+        //    add { lock (this) { _onValueChanged += value; } }
+        //    remove { lock (this) { _onValueChanged -= value; } }
+        //}
+
+        //event with custom subscription logic
+        private event EventDelegate _onValueChanged2;
+        public event EventDelegate OnValueChanged2
+        {
+            add
+            {
+                lock (this)
+                {
+                    Debug.WriteLine("Subscribed");
+                    _onValueChanged2 += value;
+                }
+            }
+            remove
+            {
+                lock (this)
+                {
+                    Debug.WriteLine("Unsubscribed");
+                    _onValueChanged2 -= value;
+                }
+            }
+        }
 
         public int Id { get; set; }
 
@@ -95,7 +126,7 @@ namespace Examples.DelegatesEvents
 
         private void HandleEvent(string value)
         {
-            onValueChanged?.Invoke(value);
+            OnValueChanged?.Invoke(value);
             //same result:
             //if (onClick != null)
             //    onClick(value);
@@ -107,7 +138,7 @@ namespace Examples.DelegatesEvents
             {
                 var classWithEvent = new ClassWithEvent();
                 //subscribe
-                classWithEvent.onValueChanged += SomeAction;
+                classWithEvent.OnValueChanged += SomeAction;
 
                 classWithEvent.Name = "Vasya";
                 //result 
@@ -115,7 +146,7 @@ namespace Examples.DelegatesEvents
 
                 //multicasting
                 //anonymous method
-                classWithEvent.onValueChanged += (value) => { Console.WriteLine("Caller id: " + classWithEvent.Id); };
+                classWithEvent.OnValueChanged += (value) => { Console.WriteLine("Caller id: " + classWithEvent.Id); };
                 //same result:
                 //classWithEvent.onValueChanged += value =>  Console.WriteLine("Caller id: " + classWithEvent.Id); 
 
@@ -126,7 +157,7 @@ namespace Examples.DelegatesEvents
                 // Caller Id: 120
 
                 //unsubscribe
-                classWithEvent.onValueChanged -= SomeAction;
+                classWithEvent.OnValueChanged -= SomeAction;
 
                 classWithEvent.Id = 100;
                 classWithEvent.Name = "Sasha";

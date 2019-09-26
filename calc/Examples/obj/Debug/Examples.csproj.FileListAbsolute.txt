@@ -1,0 +1,11 @@
+D:\Git\Examples\calc\Examples\bin\Debug\Examples.dll
+D:\Git\Examples\calc\Examples\bin\Debug\Examples.pdb
+D:\Git\Examples\calc\Examples\bin\Debug\Common.dll
+D:\Git\Examples\calc\Examples\bin\Debug\System.ValueTuple.dll
+D:\Git\Examples\calc\Examples\bin\Debug\Common.pdb
+D:\Git\Examples\calc\Examples\bin\Debug\System.ValueTuple.xml
+D:\Git\Examples\calc\Examples\obj\Debug\Examples.csprojAssemblyReference.cache
+D:\Git\Examples\calc\Examples\obj\Debug\Examples.csproj.CoreCompileInputs.cache
+D:\Git\Examples\calc\Examples\obj\Debug\Examples.csproj.CopyComplete
+D:\Git\Examples\calc\Examples\obj\Debug\Examples.dll
+D:\Git\Examples\calc\Examples\obj\Debug\Examples.pdb
