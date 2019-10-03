@@ -9,6 +9,7 @@ namespace ExamplesConsole
     public class Program
     {        static void Main(string[] args)
         {
+            var fr1 = new Fraction(1,2);
             #region trycatch
 
             try

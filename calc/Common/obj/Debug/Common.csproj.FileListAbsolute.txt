@@ -1,6 +1,6 @@
-D:\Git\Examples\calc\Common\bin\Debug\Common.dll
-D:\Git\Examples\calc\Common\bin\Debug\Common.pdb
-D:\Git\Examples\calc\Common\obj\Debug\Common.csprojAssemblyReference.cache
-D:\Git\Examples\calc\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
-D:\Git\Examples\calc\Common\obj\Debug\Common.dll
-D:\Git\Examples\calc\Common\obj\Debug\Common.pdb
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\bin\Debug\Common.dll
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\bin\Debug\Common.pdb
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\obj\Debug\Common.dll
+C:\Users\naumenko_e\source\repos\Xavr\calc\Common\obj\Debug\Common.pdb

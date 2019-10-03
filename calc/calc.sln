@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common2", "Common2\Common2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExample", "WebExample\WebExample.csproj", "{D19F3489-E59A-454D-8409-53783B01D9AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExample", "DelegateExample\DelegateExample.csproj", "{2320F906-241B-49E4-A0F3-CAE522DA8519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerableTanki", "EnumerableTanki\EnumerableTanki.csproj", "{909328A3-F941-4144-8815-86110DEB72A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D19F3489-E59A-454D-8409-53783B01D9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19F3489-E59A-454D-8409-53783B01D9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19F3489-E59A-454D-8409-53783B01D9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2320F906-241B-49E4-A0F3-CAE522DA8519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2320F906-241B-49E4-A0F3-CAE522DA8519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2320F906-241B-49E4-A0F3-CAE522DA8519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2320F906-241B-49E4-A0F3-CAE522DA8519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909328A3-F941-4144-8815-86110DEB72A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909328A3-F941-4144-8815-86110DEB72A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909328A3-F941-4144-8815-86110DEB72A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909328A3-F941-4144-8815-86110DEB72A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,7 +59,7 @@ Global
 		SolutionGuid = {D1E9396E-7FE9-4228-AFF3-0EB11A6026C8}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
+		SccNumberOfProjects = 8
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://horkteam.visualstudio.com/
 		SccLocalPath0 = .
@@ -66,5 +78,11 @@ Global
 		SccProjectUniqueName5 = WebExample\\WebExample.csproj
 		SccProjectName5 = WebExample
 		SccLocalPath5 = WebExample
+		SccProjectUniqueName6 = DelegateExample\\DelegateExample.csproj
+		SccProjectName6 = DelegateExample
+		SccLocalPath6 = DelegateExample
+		SccProjectUniqueName7 = EnumerableTanki\\EnumerableTanki.csproj
+		SccProjectName7 = EnumerableTanki
+		SccLocalPath7 = EnumerableTanki
 	EndGlobalSection
 EndGlobal

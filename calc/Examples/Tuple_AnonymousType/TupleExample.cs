@@ -13,12 +13,12 @@ namespace Examples.Tuple_AnonymousType
 
             var tuple2 = Method1();
             
-            var tuple3 = (Id:22, Name:"from method2", ItemA : new A(22));
-            id = tuple3.Id;
-            name = tuple3.Item2; // = tuple3.Name;
-            itemA = tuple3.Item3;// = tuple3.ItemA;
+           // var tuple3 = (Id:22, Name:"from method2", ItemA : new A(22));
+            //id = tuple3.Id;
+            //name = tuple3.Item2; // = tuple3.Name;
+            //itemA = tuple3.Item3;// = tuple3.ItemA;
 
-            var tuple4 = Method2();
+           // var tuple4 = Method2();
 
             tuple1 = tuple2;
             //tuple1 = tuple3; //недопустимо, так как запись (int, string, A) предусматривает создание анонимного типа (см. ниже)
@@ -42,10 +42,10 @@ namespace Examples.Tuple_AnonymousType
             return new Tuple<int, string, A>(11, "from method1", new A(11));
         }
 
-        private (int, string, A) Method2()
-        {
-            return (22, "from method2", new A(22));
-        }
+        //private (int, string, A) Method2()
+        //{
+        //    return (22, "from method2", new A(22));
+        //}
 
 
         private class A

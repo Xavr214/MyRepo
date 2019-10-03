@@ -48,7 +48,6 @@ namespace Examples.ExtensionMethods
             var result5 = "StringToShuffle".Shuffle("1234567890","abcdefghijklm");
 
             int result6 = "CountStrinThisString".MyContains("Str");
-
         }
     }
 }
